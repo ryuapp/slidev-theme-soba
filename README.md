@@ -2,7 +2,8 @@
 
 [![NPM version](https://img.shields.io/npm/v/slidev-theme-soba?color=3AB9D4&label=)](https://www.npmjs.com/package/slidev-theme-soba)
 
-A (...) theme for [Slidev](https://github.com/slidevjs/slidev).
+日本語向けのシンプルな [Slidev](https://github.com/slidevjs/slidev) のテーマです。  
+A simple [Slidev](https://github.com/slidevjs/slidev) theme for Japanese.
 
 <!--
   Learn more about how to write a theme:
