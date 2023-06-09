@@ -1,0 +1,96 @@
+:root {
+  --slidev-theme-primary: #df1d1d;
+}
+
+code,
+.slidev-code-copy
+ {
+  @apply text-zinc-300;
+}
+
+.slidev-layout{
+  h1,h2,h3,h4,h5,h6,p,ul{
+    @apply text-zinc-800;
+  }
+}
+
+.slidev-layout blockquote{
+  p {
+    @apply text-zinc-400
+  }
+}
+
+.slidev-layout.default {
+  h1 {
+    @apply text-4xl;
+  }
+  h2 {
+    @apply mb-2;
+  }
+  p{
+    @apply text-xl;
+  }
+}
+
+.slidev-layout.cover,
+.slidev-layout.intro {
+  @apply h-full grid text-center;
+
+  h1 {
+    @apply text-6xl leading-20;
+  }
+
+  h1 + p {
+    @apply -mt-2 text-zinc-600 mb-4;
+  }
+
+  p {
+    @apply text-2xl;
+  }
+
+  p + h2, ul + h2, table + h2 {
+    @apply mt-10;
+  }
+}
+
+.slidev-layout.section {
+  @apply h-full grid;
+
+  h1 {
+    @apply text-5xl;
+  }
+  h1 + p {
+    @apply -mt-2 ml-4 text-zinc-600;
+  }
+
+}
+.slidev-layout.center {
+  @apply h-full grid text-center;
+  
+  h1 {
+    @apply text-5xl;
+  }
+  h1 + p {
+    @apply text-zinc-600;
+  }
+
+}
+
+.slidev-layout.end {
+  @apply bg-black h-full grid text-center;
+
+  h1 {
+    @apply text-zinc-100;
+  }
+  h1 + p {
+    @apply -mt-2 text-zinc-100 mb-4;
+  }
+
+  p {
+    @apply text-2xl;
+  }
+
+  p + h2, ul + h2, table + h2 {
+    @apply mt-10;
+  }
+}
