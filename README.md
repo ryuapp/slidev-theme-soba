@@ -5,6 +5,9 @@
 日本語向けのシンプルな [Slidev](https://github.com/slidevjs/slidev) のテーマです。  
 A simple [Slidev](https://github.com/slidevjs/slidev) theme for Japanese.
 
+> **Note**  
+> This theme is designed for Japanese, but can be used in other languages.
+
 <!--
   Learn more about how to write a theme:
   https://sli.dev/themes/write-a-theme.html
@@ -14,11 +17,7 @@ A simple [Slidev](https://github.com/slidevjs/slidev) theme for Japanese.
   run `npm run dev` to check out the slides for more details of how to start writing a theme
 -->
 
-<!--
-  Put some screenshots here to demonstrate your theme
-
-  Live demo: [...]
--->
+Live demo: [here](https://slidev-theme-soba.ryu.app)
 
 ## Install
 
@@ -34,13 +33,17 @@ Learn more about [how to use a theme](https://sli.dev/themes/use).
 
 This theme provides the following layouts:
 
-> TODO:
+- Cover
+- Section
+- Center
+- Image
+- End
 
 ## Components
 
 This theme provides the following components:
 
-> TODO:
+🚧Underconstruction🚧
 
 ## Contributing
 
