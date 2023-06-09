@@ -21,6 +21,7 @@
     "defaults": {
       "fonts": {
         "sans": ["Poppins", "Noto Sans JP"],
+        "weights": [200,400,500,700],
         "mono": "Fira Code"
       },
       "hightlighter": "prism"
