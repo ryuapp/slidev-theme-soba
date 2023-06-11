@@ -1,5 +1,11 @@
 ---
 theme: ./
+showPageCount: true
+disablePageCount: [1,7,9,11]
+themeConfig:
+  primary: '#39b54a'
+htmlAttrs:
+  lang: 'ja'
 ---
 
 # Slidevテーマ Soba
@@ -7,17 +13,28 @@ theme: ./
 日本語向けのシンプルなテーマ
 
 ---
+layout: profile
+profileImage: https://img.ryu.app/logo/ryuapp.svg
+---
+
+# Ryu
+フロントエンド開発者
+- [Portfolio](https://www.ryu.app)
+- [GitHub](https://github.com/ryuapp/)
+
+---
 
 # Sobaとは？
-日本語向けのシンプルなSlidevのスライドテーマです  
-マークダウンでのスライド作成に集中出来るように、  
+日本語向けのシンプルな[Slidev](https://github.com/slidevjs/slidev)のスライドテーマです
+
+マークダウンでのスライド作成に集中出来るように  
 「**見やすさ**」と「__手軽さ__」を重視した細かい調整を行なっています  
 <br>
 ## 調整内容
 1. 日本語フォントの使用
-    - 日本語：[Noto Sans JP](https://fonts.google.com/noto/specimen/Noto+Sans+JP)
-    - アルファベットや記号：[Poppins](https://fonts.google.com/specimen/Poppins)
-2. 文字の大きさ、間隔
+    - 日本語 ⇒ [Noto Sans JP](https://fonts.google.com/noto/specimen/Noto+Sans+JP)
+    - アルファベットや記号 ⇒ [Poppins](https://fonts.google.com/specimen/Poppins)
+2. 文字の大きさ、太さ、間隔
 
 
 ---
@@ -76,14 +93,6 @@ image: /soba.jpg
 
 # Image
 全面に画像
-
----
-
-# Table
-|ヘッダー1|ヘッダー2|ヘッダー3|
-|:--|--:|:--:|
-|左揃え|右揃え|中央揃え|
-|あ|い|う|
 
 ---
 

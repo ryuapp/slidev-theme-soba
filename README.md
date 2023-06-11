@@ -34,6 +34,7 @@ Learn more about [how to use a theme](https://sli.dev/themes/use).
 This theme provides the following layouts:
 
 - Cover
+- Profile
 - Section
 - Center
 - Image
