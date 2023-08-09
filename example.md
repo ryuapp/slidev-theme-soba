@@ -72,6 +72,19 @@ layout: center
 中央揃え
 
 ---
+layout: quote
+---
+
+# Quote
+<blockquote>
+  <p>
+  深淵を覗く時<br />
+  深淵もまたこちらを覗いているのだ
+  </p>
+<footer>ニーチェ</footer>
+</blockquote>
+
+---
 layout: image-right
 image: /soba.jpg
 ---

@@ -98,6 +98,38 @@ code,
   }
 }
 
+.slidev-layout.quote {
+  @apply grid h-full text-center;
+  
+  h1 {
+    @apply text-5xl;
+  }
+  h1 + p {
+    @apply mt-2;
+  }
+  blockquote {
+    @apply before:content-['“'] after:content-["”"] w-fit mx-auto text-zinc-900 bg-zinc-200 border-0 grid text-left;
+  }
+  blockquote:before, blockquote:after {
+    @apply text-5xl font-bold text-zinc-600 justify-self-end font-serif;
+  }
+  blockquote:before {
+    @apply justify-self-start;
+  }
+  blockquote:after {
+    @apply justify-self-end pt-4 h-10;
+  }
+  blockquote p{
+    @apply text-zinc-900 bg-zinc-200 border-0 text-xl px-6;
+  }
+  blockquote p + footer{
+    @apply mt-2;
+  }
+  blockquote footer{
+    @apply text-right text-zinc-600 text-lg px-6;
+  }
+}
+
 .slidev-layout.end {
   @apply bg-black h-full grid text-center;
 
