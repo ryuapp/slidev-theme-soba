@@ -48,14 +48,14 @@
     "screenshot": "slidev export example.md --format png"
   },
   "dependencies": {
-    "@slidev/types": "^0.42.5",
+    "@slidev/types": "^0.42.7",
     "codemirror-theme-vars": "^0.1.2",
     "prism-theme-vars": "^0.2.4",
     "theme-vitesse": "^0.7.2"
   },
   "devDependencies": {
-    "@slidev/cli": "^0.42.5",
-    "playwright-chromium": "^1.36.1"
+    "@slidev/cli": "^0.42.7",
+    "playwright-chromium": "^1.36.2"
   },
   "license": "MIT"
 }
