@@ -54,7 +54,7 @@
     "theme-vitesse": "^0.7.5"
   },
   "devDependencies": {
-    "@slidev/cli": "^ 0.45.0",
+    "@slidev/cli": "^0.48.0",
     "playwright-chromium": "^1.40.1"
   },
   "license": "MIT"
