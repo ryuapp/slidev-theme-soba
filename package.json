@@ -18,7 +18,7 @@
   "bugs": "https://github.com/ryuapp/slidev-theme-soba/issues",
   "slidev": {
     "colorSchema": "light",
-    "highlighter": "prism",
+    "highlighter": "all",
     "defaults": {
       "fonts": {
         "sans": [
@@ -48,14 +48,13 @@
     "screenshot": "slidev export example.md --format png"
   },
   "dependencies": {
-    "@slidev/types": "^ 0.45.0",
+    "@slidev/types": "^0.42.4",
     "codemirror-theme-vars": "^0.1.2",
     "prism-theme-vars": "^0.2.4",
-    "theme-vitesse": "^0.7.5"
+    "theme-vitesse": "^0.7.2"
   },
   "devDependencies": {
-    "@slidev/cli": "^0.48.0",
-    "playwright-chromium": "^1.40.1"
+    "@slidev/cli": "^0.42.4"
   },
   "license": "MIT"
 }
