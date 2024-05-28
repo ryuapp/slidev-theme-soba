@@ -18,7 +18,7 @@
   "bugs": "https://github.com/ryuapp/slidev-theme-soba/issues",
   "slidev": {
     "colorSchema": "light",
-    "highlighter": "all",
+    "highlighter": "shiki",
     "defaults": {
       "fonts": {
         "sans": [
@@ -34,7 +34,7 @@
           700
         ]
       },
-      "hightlighter": "prism"
+      "hightlighter": "shiki"
     }
   },
   "engines": {
@@ -49,8 +49,6 @@
   },
   "dependencies": {
     "@slidev/types": "^0.42.4",
-    "codemirror-theme-vars": "^0.1.2",
-    "prism-theme-vars": "^0.2.4",
     "theme-vitesse": "^0.7.2"
   },
   "devDependencies": {
