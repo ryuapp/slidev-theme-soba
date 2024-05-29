@@ -19,7 +19,7 @@ profileImage: https://img.ryu.app/logo/ryuapp.svg
 
 # Ryu
 フロントエンド開発者
-- [Portfolio](https://www.ryu.app)
+- [Portfolio](https://ryu.app)
 - [GitHub](https://github.com/ryuapp/)
 
 ---
