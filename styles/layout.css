@@ -1,5 +1,6 @@
 :root {
   --slidev-theme-primary: #df1d1d;
+  --slidev-code-background: #1b1b1b;
 }
 
 code,
@@ -12,7 +13,7 @@ code,
   h1,h2,h3,h4,h5,h6,p,ul{
     @apply text-zinc-700;
   }
-  h1,h2,h3,h4,h5,h6,{
+  h1,h2,h3,h4,h5,h6{
     @apply font-medium
   }
 }
