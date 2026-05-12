@@ -2,12 +2,13 @@
 
 ![slidev theme soba](https://github.com/ryuapp/slidev-theme-soba/assets/114303361/46e242d1-9740-4dd7-92c0-7a5f73ed49dd)
 
-[![NPM version](https://img.shields.io/npm/v/slidev-theme-soba?color=3AB9D4&label=)](https://www.npmjs.com/package/slidev-theme-soba)
+[![License](https://img.shields.io/github/license/ryuapp/slidev-theme-soba?labelColor=171717&color=39b54a&label=License)](https://github.com/ryuapp/slidev-theme-soba/blob/main/LICENSE)
+[![npm](https://img.shields.io/npm/v/slidev-theme-soba?labelColor=171717&color=39b54a)](https://npmx.dev/package/slidev-theme-soba)
 
 日本語向けのシンプルな [Slidev](https://github.com/slidevjs/slidev) のテーマです。\
 A simple [Slidev](https://github.com/slidevjs/slidev) theme for Japanese.
 
-> **Note**\
+> [!NOTE]
 > This theme is designed for Japanese, but can be used in other languages.
 
 Live demo: [here](https://slidev-theme-soba.ryu.app)
@@ -16,11 +17,13 @@ Live demo: [here](https://slidev-theme-soba.ryu.app)
 
 Add the following frontmatter to your `slides.md`. Start Slidev then it will prompt you to install the theme automatically.
 
-<pre><code>---
-theme: <b>soba</b>
----</code></pre>
+```txt
+---
+theme: soba
+---
+```
 
-Learn more about [how to use a theme](https://sli.dev/themes/use).
+Learn more about [Theme and Addons](https://sli.dev/guide/theme-addon).
 
 ## Layouts
 
