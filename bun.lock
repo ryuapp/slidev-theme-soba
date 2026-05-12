@@ -1,14 +1,12 @@
 {
   "lockfileVersion": 1,
+  "configVersion": 0,
   "workspaces": {
     "": {
       "name": "slidev-theme-soba",
-      "dependencies": {
-        "@slidev/types": "^51.0.2",
-        "theme-vitesse": "^0.8.3",
-      },
       "devDependencies": {
         "@slidev/cli": "^51.0.2",
+        "@slidev/types": "^51.0.2",
       },
     },
   },
@@ -1158,8 +1156,6 @@
     "stylis": ["stylis@4.3.6", "", {}, "sha512-yQ3rwFWRfwNUY7H5vpU0wfdkNSnvnJinhF9830Swlaxl03zsOjCfmX0ugac+3LtK0lYSgwL/KXc8oYL3mG4YFQ=="],
 
     "super-regex": ["super-regex@0.2.0", "", { "dependencies": { "clone-regexp": "^3.0.0", "function-timeout": "^0.1.0", "time-span": "^5.1.0" } }, "sha512-WZzIx3rC1CvbMDloLsVw0lkZVKJWbrkJ0k1ghKFmcnPrW1+jWbgTkTEWVtD9lMdmI4jZEz40+naBxl1dCUhXXw=="],
-
-    "theme-vitesse": ["theme-vitesse@0.8.3", "", {}, "sha512-+H/p9fxfuP+qZHNeqNNFSehygzC2TfVelRY4rmRg6diX/L97JfMZOE3YHlLpOsm8/AFxc/n6E6MY3+Hkz3G96Q=="],
 
     "time-span": ["time-span@5.1.0", "", { "dependencies": { "convert-hrtime": "^5.0.0" } }, "sha512-75voc/9G4rDIJleOo4jPvN4/YC4GRZrY8yy1uU4lwrB3XEQbWve8zXoO5No4eFrGcTAMYyoY67p8jRQdtA1HbA=="],
 
