@@ -18,6 +18,6 @@ jobs:
           cache: true
 
       - name: Format
-        run: deno fmt --check
+        run: deno task format:check
       - name: Build
         run: deno task build

@@ -1,7 +1,7 @@
 <template>
-    <div class="slidev-layout quote">
-      <div class="my-auto">
-        <slot />
-      </div>
+  <div class="slidev-layout quote">
+    <div class="my-auto">
+      <slot />
     </div>
-  </template>
+  </div>
+</template>
