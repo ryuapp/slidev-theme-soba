@@ -4,23 +4,22 @@
 }
 
 code,
-.slidev-code-copy
- {
+.slidev-code-copy {
   @apply text-zinc-300;
 }
 
-.slidev-layout{
-  h1,h2,h3,h4,h5,h6,p,ul{
+.slidev-layout {
+  h1, h2, h3, h4, h5, h6, p, ul {
     @apply text-zinc-700;
   }
-  h1,h2,h3,h4,h5,h6{
-    @apply font-medium
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-medium;
   }
 }
 
-.slidev-layout blockquote{
+.slidev-layout blockquote {
   p {
-    @apply text-zinc-400
+    @apply text-zinc-400;
   }
 }
 
@@ -31,7 +30,7 @@ code,
   h2 {
     @apply mb-2;
   }
-  p{
+  p {
     @apply text-xl;
   }
 }
@@ -39,7 +38,6 @@ code,
 .slidev-layout.cover,
 .slidev-layout.intro {
   @apply h-full grid text-center;
-
 
   h1 {
     @apply text-6xl leading-20;
@@ -67,13 +65,12 @@ code,
   h1 + p {
     @apply -mt-2 ml-4 text-zinc-600;
   }
-
 }
 
 .slidev-layout.center {
   @apply h-full grid text-center;
 
-  h1,h2,h3,h4,h5,h6{
+  h1, h2, h3, h4, h5, h6 {
     @apply font-bold;
   }
   h1 {
@@ -101,7 +98,7 @@ code,
 
 .slidev-layout.quote {
   @apply grid h-full text-center;
-  
+
   h1 {
     @apply text-5xl;
   }
@@ -109,7 +106,7 @@ code,
     @apply mt-2;
   }
   blockquote {
-    @apply before:content-['“'] after:content-["”"] w-fit mx-auto text-zinc-900 bg-zinc-200 border-0 grid text-left;
+    @apply before:content-["“"] after:content-["”"] w-fit mx-auto text-zinc-900 bg-zinc-200 border-0 grid text-left;
   }
   blockquote:before, blockquote:after {
     @apply text-5xl font-bold text-zinc-600 justify-self-end font-serif;
@@ -120,13 +117,13 @@ code,
   blockquote:after {
     @apply justify-self-end pt-4 h-10;
   }
-  blockquote p{
+  blockquote p {
     @apply text-zinc-900 bg-zinc-200 border-0 text-xl px-6;
   }
-  blockquote p + footer{
+  blockquote p + footer {
     @apply mt-2;
   }
-  blockquote footer{
+  blockquote footer {
     @apply text-right text-zinc-600 text-lg px-6;
   }
 }

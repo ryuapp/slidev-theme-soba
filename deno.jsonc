@@ -1,9 +1,15 @@
 {
+  "minimumDependencyAge": "P2D",
   "tasks": {
     "slidev": "slidev",
     "build": "slidev build example.md",
     "dev": "slidev example.md --open",
     "export": "slidev export example.md",
     "screenshot": "slidev export example.md --format png"
-  }
+  },
+  "fmt": {
+    "exclude": ["example.md"],
+    "proseWrap": "preserve"
+  },
+  "nodeModulesDir": "auto"
 }
