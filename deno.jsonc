@@ -1,4 +1,5 @@
 {
+  "minimumDependencyAge": "P2D",
   "tasks": {
     "slidev": "slidev",
     "build": "slidev build example.md",
@@ -9,5 +10,6 @@
   "fmt": {
     "exclude": ["example.md"],
     "proseWrap": "preserve"
-  }
+  },
+  "nodeModulesDir": "auto"
 }
