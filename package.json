@@ -41,6 +41,13 @@
     "node": ">=14.0.0",
     "slidev": ">=0.19.3"
   },
+  "files": [
+    "components",
+    "layouts",
+    "setup",
+    "styles",
+    "global-bottom.vue"
+  ],
   "scripts": {
     "build": "slidev build example.md",
     "dev": "slidev example.md --open",
