@@ -2,20 +2,14 @@
   "name": "slidev-theme-soba",
   "version": "0.2.3",
   "description": "A simple Slidev theme for Japanese",
-  "author": {
-    "name": "ryu",
-    "url": "https://www.ryu.app"
-  },
+  "license": "MIT",
+  "repository": "ryuapp/slidev-theme-soba",
+  "homepage": "https://github.com/ryuapp/slidev-theme-soba",
+  "bugs": "https://github.com/ryuapp/slidev-theme-soba/issues",
   "keywords": [
     "slidev-theme",
     "slidev"
   ],
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/ryuapp/slidev-theme-soba.git"
-  },
-  "homepage": "https://slidev-theme-soba.ryu.app/",
-  "bugs": "https://github.com/ryuapp/slidev-theme-soba/issues",
   "slidev": {
     "colorSchema": "light",
     "highlighter": "shiki",
@@ -37,10 +31,6 @@
       "hightlighter": "shiki"
     }
   },
-  "engines": {
-    "node": ">=14.0.0",
-    "slidev": ">=0.19.3"
-  },
   "files": [
     "components",
     "layouts",
@@ -53,5 +43,8 @@
     "@slidev/types": "52.15.2",
     "playwright-chromium": "1.60.0"
   },
-  "license": "MIT"
+  "engines": {
+    "node": ">=14.0.0",
+    "slidev": ">=0.19.3"
+  }
 }
