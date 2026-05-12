@@ -20,7 +20,7 @@ jobs:
         uses: denoland/setup-deno@667a34cdef165d8d2b2e98dde39547c9daac7282 # v2.0.4
 
       - name: Format
-        run: deno fmt --check
+        run: deno task format:check
       - name: Build
         run: deno task build
 

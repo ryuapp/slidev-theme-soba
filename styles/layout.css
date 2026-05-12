@@ -9,10 +9,22 @@ code,
 }
 
 .slidev-layout {
-  h1, h2, h3, h4, h5, h6, p, ul {
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6,
+  p,
+  ul {
     @apply text-zinc-700;
   }
-  h1, h2, h3, h4, h5, h6 {
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
     @apply font-medium;
   }
 }
@@ -37,27 +49,29 @@ code,
 
 .slidev-layout.cover,
 .slidev-layout.intro {
-  @apply h-full grid text-center;
+  @apply grid h-full text-center;
 
   h1 {
     @apply text-6xl leading-20;
   }
 
   h1 + p {
-    @apply -mt-2 text-zinc-600 mb-4;
+    @apply -mt-2 mb-4 text-zinc-600;
   }
 
   p {
     @apply text-2xl;
   }
 
-  p + h2, ul + h2, table + h2 {
+  p + h2,
+  ul + h2,
+  table + h2 {
     @apply mt-10;
   }
 }
 
 .slidev-layout.section {
-  @apply h-full grid;
+  @apply grid h-full;
 
   h1 {
     @apply text-5xl;
@@ -68,9 +82,14 @@ code,
 }
 
 .slidev-layout.center {
-  @apply h-full grid text-center;
+  @apply grid h-full text-center;
 
-  h1, h2, h3, h4, h5, h6 {
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
     @apply font-bold;
   }
   h1 {
@@ -106,43 +125,46 @@ code,
     @apply mt-2;
   }
   blockquote {
-    @apply before:content-["“"] after:content-["”"] w-fit mx-auto text-zinc-900 bg-zinc-200 border-0 grid text-left;
+    @apply mx-auto grid w-fit border-0 bg-zinc-200 text-left text-zinc-900 before:content-["“"] after:content-["”"];
   }
-  blockquote:before, blockquote:after {
-    @apply text-5xl font-bold text-zinc-600 justify-self-end font-serif;
+  blockquote:before,
+  blockquote:after {
+    @apply justify-self-end font-serif text-5xl font-bold text-zinc-600;
   }
   blockquote:before {
     @apply justify-self-start;
   }
   blockquote:after {
-    @apply justify-self-end pt-4 h-10;
+    @apply h-10 justify-self-end pt-4;
   }
   blockquote p {
-    @apply text-zinc-900 bg-zinc-200 border-0 text-xl px-6;
+    @apply border-0 bg-zinc-200 px-6 text-xl text-zinc-900;
   }
   blockquote p + footer {
     @apply mt-2;
   }
   blockquote footer {
-    @apply text-right text-zinc-600 text-lg px-6;
+    @apply px-6 text-right text-lg text-zinc-600;
   }
 }
 
 .slidev-layout.end {
-  @apply bg-black h-full grid text-center;
+  @apply grid h-full bg-black text-center;
 
   h1 {
     @apply text-zinc-100;
   }
   h1 + p {
-    @apply -mt-2 text-zinc-100 mb-4;
+    @apply -mt-2 mb-4 text-zinc-100;
   }
 
   p {
     @apply text-2xl;
   }
 
-  p + h2, ul + h2, table + h2 {
+  p + h2,
+  ul + h2,
+  table + h2 {
     @apply mt-10;
   }
 }

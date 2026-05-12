@@ -1,15 +1,17 @@
 {
   "minimumDependencyAge": "P2D",
   "tasks": {
+    "format": "oxfmt",
+    "format:check": "oxfmt --check",
     "slidev": "slidev",
     "build": "slidev build example.md",
     "dev": "slidev example.md --open",
     "export": "slidev export example.md",
-    "screenshot": "slidev export example.md --format png"
+    "screenshot": "slidev export example.md --format png",
   },
-  "fmt": {
-    "exclude": ["example.md"],
-    "proseWrap": "preserve"
+  "imports": {
+    "oxfmt": "npm:oxfmt@0.48.0",
   },
-  "nodeModulesDir": "auto"
+  "fmt": false,
+  "nodeModulesDir": "auto",
 }
