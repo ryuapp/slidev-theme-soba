@@ -9,15 +9,6 @@ A simple [Slidev](https://github.com/slidevjs/slidev) theme for Japanese.
 > **Note**  
 > This theme is designed for Japanese, but can be used in other languages.
 
-<!--
-  Learn more about how to write a theme:
-  https://sli.dev/themes/write-a-theme.html
---->
-
-<!--
-  run `npm run dev` to check out the slides for more details of how to start writing a theme
--->
-
 Live demo: [here](https://slidev-theme-soba.ryu.app)
 
 ## Install
@@ -49,8 +40,8 @@ This theme provides the following components:
 
 ## Contributing
 
-- `npm install`
-- `npm run dev` to start theme preview of `example.md`
+- `deno install`
+- `deno task dev` to start theme preview of `example.md`
 - Edit the `example.md` and style to see the changes
-- `npm run export` to generate the preview PDF
-- `npm run screenshot` to generate the preview PNG
+- `deno task export` to generate the preview PDF
+- `deno task screenshot` to generate the preview PNG
