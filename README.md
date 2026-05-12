@@ -1,12 +1,13 @@
 # slidev-theme-soba
+
 ![slidev theme soba](https://github.com/ryuapp/slidev-theme-soba/assets/114303361/46e242d1-9740-4dd7-92c0-7a5f73ed49dd)
 
 [![NPM version](https://img.shields.io/npm/v/slidev-theme-soba?color=3AB9D4&label=)](https://www.npmjs.com/package/slidev-theme-soba)
 
-日本語向けのシンプルな [Slidev](https://github.com/slidevjs/slidev) のテーマです。  
+日本語向けのシンプルな [Slidev](https://github.com/slidevjs/slidev) のテーマです。\
 A simple [Slidev](https://github.com/slidevjs/slidev) theme for Japanese.
 
-> **Note**  
+> **Note**\
 > This theme is designed for Japanese, but can be used in other languages.
 
 Live demo: [here](https://slidev-theme-soba.ryu.app)
