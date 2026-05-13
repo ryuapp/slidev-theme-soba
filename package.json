@@ -3,6 +3,7 @@
   "version": "0.2.4",
   "description": "A simple Slidev theme for Japanese",
   "license": "MIT",
+  "type": "module",
   "repository": "ryuapp/slidev-theme-soba",
   "homepage": "https://github.com/ryuapp/slidev-theme-soba",
   "bugs": "https://github.com/ryuapp/slidev-theme-soba/issues",
