@@ -45,7 +45,7 @@
     "playwright-chromium": "1.60.0"
   },
   "engines": {
-    "node": ">=14.0.0",
-    "slidev": ">=0.19.3"
+    "node": ">=22.22.0",
+    "slidev": ">=52.0.0"
   }
 }
