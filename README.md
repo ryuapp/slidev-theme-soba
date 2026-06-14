@@ -47,3 +47,7 @@ This theme provides the following layouts:
 - Edit the `example.md` and style to see the changes
 - `deno task export` to generate the preview PDF
 - `deno task screenshot` to generate the preview PNG
+
+## License
+
+MIT-0
