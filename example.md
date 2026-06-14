@@ -1,16 +1,16 @@
 ---
 theme: ./
 showPageCount: true
-disablePageCount: [1, 7, 9, 11]
+disablePageCount: [1, 5, 6, 7, 9]
 themeConfig:
   primary: "#39b54a"
 htmlAttrs:
   lang: "ja"
 ---
 
-# Slidevテーマ Soba
+# Slidevのシンプルなテーマ Soba
 
-日本語向けのシンプルなテーマ
+日本語向けのシンプルなSlidevのテーマ
 
 ---
 layout: profile
@@ -22,7 +22,7 @@ profileImage: https://img.ryu.app/logo/ryuapp.svg
 フロントエンド開発者
 
 - [Portfolio](https://ryu.app)
-- [GitHub](https://github.com/ryuapp/)
+- [GitHub](https://github.com/ryuapp)
 
 ---
 
@@ -39,27 +39,22 @@ profileImage: https://img.ryu.app/logo/ryuapp.svg
 1. 日本語フォントの使用
    - 日本語 ⇒ [Noto Sans JP](https://fonts.google.com/noto/specimen/Noto+Sans+JP)
    - アルファベットや記号 ⇒ [Poppins](https://fonts.google.com/specimen/Poppins)
-2. 文字の大きさ、太さ、間隔
+2. 対面向けに文字の大きさ、太さ、間隔を調整
 
 ---
 
 # Slidevとは？
 
-Slidevはスライド作成ツールであり、開発者向けに設計されたプレゼンテーションツールです  
-次のような機能を備えています
+Slidevはスライド作成ツールであり、開発者向けに設計されたプレゼンテーションツールです。次のような機能を備えています
 
-- 📝 **テキストベース** - マークダウンでコンテンツに集中し、スタイルを整えられる
-- 🎨 **テーマの切り替え** - npm を通じてテーマを共有できる
-- 🧑‍💻 **開発者フレンドリー** - コードハイライト、オートコンプリートによるライブコーディングができる
-- 🤹 **インタラクティブ** - Vue コンポーネントを埋め込んで表現を強化できる
-- 🎥 **録画・撮影** - 録画機能とカメラビューがあります
-- 📤 **便利** - PDF、PNG、またはホスティング可能な SPA で出力できる
-- 🛠 **カスタマイズ** - Webページで出来る事は何でもできる
+- 📝 **テキストベース**
+  - マークダウンでコンテンツに集中し、スタイルを整えられる
+- 🧑‍💻 **開発者フレンドリー**
+    - コードハイライト、オートコンプリートが利用できる
+- 📤 **便利**
+  - PDF、PNG、またはホスティング可能なSPAで出力できる
 
-<br>
-<br>
-
-もっと知りたい人は [なぜSlidev？](https://ja.sli.dev/guide/why.html)
+もっと知りたい人は [なぜSlidev？](https://ja.sli.dev/guide/why)
 
 ---
 layout: section

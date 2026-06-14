@@ -1,11 +1,12 @@
 :root {
   --slidev-theme-primary: #df1d1d;
   --slidev-code-background: #1b1b1b;
+  --slidev-code-padding: 1.2rem;
 }
 
 code,
 .slidev-code-copy {
-  @apply text-zinc-300;
+  @apply text-lg text-white;
 }
 
 .slidev-layout {
@@ -16,9 +17,11 @@ code,
   h5,
   h6,
   p,
-  ul {
+  ul,
+  ol {
     @apply text-zinc-700;
   }
+
   h1,
   h2,
   h3,
@@ -26,6 +29,12 @@ code,
   h5,
   h6 {
     @apply font-medium;
+  }
+
+  p,
+  ul,
+  ol {
+    @apply text-2xl;
   }
 }
 
@@ -35,7 +44,8 @@ code,
   }
 }
 
-.slidev-layout.default {
+.slidev-layout.default,
+.slidev-layout.profile {
   h1 {
     @apply text-4xl;
   }
@@ -43,7 +53,7 @@ code,
     @apply mb-2;
   }
   p {
-    @apply text-xl;
+    @apply text-2xl;
   }
 }
 
@@ -52,11 +62,11 @@ code,
   @apply grid h-full text-center;
 
   h1 {
-    @apply text-6xl leading-20;
+    @apply text-6xl leading-16;
   }
 
   h1 + p {
-    @apply -mt-2 mb-4 text-zinc-600;
+    @apply mt-4 mb-4 text-zinc-600;
   }
 
   p {
@@ -70,20 +80,8 @@ code,
   }
 }
 
-.slidev-layout.section {
-  @apply grid h-full;
-
-  h1 {
-    @apply text-5xl;
-  }
-  h1 + p {
-    @apply -mt-2 ml-4 text-zinc-600;
-  }
-}
-
+.slidev-layout.section,
 .slidev-layout.center {
-  @apply grid h-full text-center;
-
   h1,
   h2,
   h3,
@@ -115,6 +113,18 @@ code,
   }
 }
 
+.slidev-layout.section {
+  @apply grid h-full;
+
+  h1 + p {
+    @apply -mt-2;
+  }
+}
+
+.slidev-layout.center {
+  @apply grid h-full text-center;
+}
+
 .slidev-layout.quote {
   @apply grid h-full text-center;
 
@@ -125,7 +135,7 @@ code,
     @apply mt-2;
   }
   blockquote {
-    @apply mx-auto grid w-fit border-0 bg-zinc-200 text-left text-zinc-900 before:content-["“"] after:content-["”"];
+    @apply mx-auto grid w-fit border-0 bg-gray-200 text-left before:content-["“"] after:content-["”"];
   }
   blockquote:before,
   blockquote:after {
@@ -138,13 +148,13 @@ code,
     @apply h-10 justify-self-end pt-4;
   }
   blockquote p {
-    @apply border-0 bg-zinc-200 px-6 text-xl text-zinc-900;
+    @apply border-0 px-8 py-2 text-4xl text-zinc-900;
   }
   blockquote p + footer {
-    @apply mt-2;
+    @apply mt-4;
   }
   blockquote footer {
-    @apply px-6 text-right text-lg text-zinc-600;
+    @apply px-6 text-right text-3xl text-zinc-600;
   }
 }
 
@@ -152,7 +162,7 @@ code,
   @apply grid h-full bg-black text-center;
 
   h1 {
-    @apply text-zinc-100;
+    @apply text-5xl text-zinc-100;
   }
   h1 + p {
     @apply -mt-2 mb-4 text-zinc-100;
