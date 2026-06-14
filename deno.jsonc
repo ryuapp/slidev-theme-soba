@@ -7,7 +7,7 @@
     "build": "slidev build example.md",
     "dev": "slidev example.md --open",
     "export": "slidev export example.md",
-    "screenshot": "slidev export example.md --format png",
+    "screenshot": "slidev export example.md --format png --output screenshots",
   },
   "imports": {
     "oxfmt": "npm:oxfmt@0.48.0",

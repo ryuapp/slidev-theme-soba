@@ -5,10 +5,7 @@
         <slot />
       </div>
       <div class="m-12">
-        <img
-          class="my-auto aspect-square w-full rounded-full"
-          :src="$attrs.profileImage || '/soba.jpg'"
-        />
+        <img class="my-auto aspect-square w-full rounded-full" :src="$attrs.profileImage" />
       </div>
     </div>
   </div>

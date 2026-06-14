@@ -6,6 +6,6 @@
     "
     class="font-serif text-lg"
   >
-    <SlideCurrentNo />
+    {{ $slidev.nav.currentPage }}
   </div>
 </template>
